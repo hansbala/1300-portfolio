@@ -69,13 +69,7 @@ h2 {
 .card:hover {
   transition: 450ms transform;
   transform: scale(1.01);
-  /* transform: translate3d(50); */
 }
-/* .card-img-top {
-  height: 300px !important;
-  width: auto;
-  filter: blur(2px);
-} */
 .btn-node6 {
   background-color: #232931;
   color: #ff8c20;
@@ -107,8 +101,10 @@ h2 {
 }
 .btn-to-top {
   background-color: #44c59a;
-
   color: #232931;
+}
+.btn-to-top:hover {
+  transform: scale(1.05);
 }
 .social-icon {
   color: #ff8c20;

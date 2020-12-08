@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(19, 19, 19);
+  font-family: "Roboto", sans-serif;
+}
+.hero {
+  background-color: #232931;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+h1,
+h2 {
+  font-family: "JetBrains Mono", monospace;
+}
+.hero-particles,
+.hero-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  padding: 1.2rem;
+  border-radius: 15px;
+  z-index: 100;
+}
+.header > h1 {
+  color: #44c59a !important;
+}
+.learn-more-btn {
+  background-color: #232931;
+  color: #ff8c20;
+  border: #ff8c20 1px solid;
+  border-radius: 10px;
+}
+.learn-more-btn:hover {
+  background-color: #ff8c20;
+  color: #232931;
+  transition: 500ms transform;
+  transform: scale(1.1);
+  animation-timing-function: linear;
+}
+
+.fg-terminal {
+  color: #44c59a;
+  /* color: rgb(0, 255, 0); */
+}
+.fg-orange {
+  color: #ff8c20;
+}
+.card {
+  background-color: rgb(28, 28, 28);
+  color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.card:hover {
+  transition: 450ms transform;
+  transform: scale(1.01);
+  /* transform: translate3d(50); */
+}
+/* .card-img-top {
+  height: 300px !important;
+  width: auto;
+  filter: blur(2px);
+} */
+.btn-node6 {
+  background-color: #232931;
+  color: #ff8c20;
+  border-radius: 10px;
+}
+.btn-node6:hover {
+  transition: 200ms transform;
+  transform: scale(1.1);
+  color: #ff8c20;
+}
+
+.contact-wrapper {
+  background-color: #d6d4d4;
+}
+#messageInput {
+  width: 100%;
+  height: 100%;
+  min-height: 175px;
+}
+#contact-btn {
+  background-color: #ff8c20;
+  color: #232931;
+  border: none;
+}
+
+/* To the top button */
+.btn-wrapper {
+  background-color: #232931;
+}
+.btn-to-top {
+  background-color: #44c59a;
+
+  color: #232931;
+}
+.social-icon {
+  color: #ff8c20;
+  font-size: 2rem;
+}
+.social-icon:hover {
+  color: #44c59a;
+}

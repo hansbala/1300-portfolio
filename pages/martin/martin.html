@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- Index.css -->
+    <link rel="stylesheet" href="css/martin.css" />
+
+    <title>Blog Redesign</title>
+  </head>
+  <body>
+    <a href="/index.html" class="btn fg-color-secondary" id="nav-btn">
+      <i class="fa fa-arrow-left"></i>
+      Back to Home
+    </a>
+
+    <div class="container">
+      <h1 class="text-center fg-color-primary font-monospace my-5">
+        Blog Redesign
+      </h1>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <img
+            src="img/original.jpg"
+            class="img-fluid"
+            width="100%"
+            height="100%"
+            style="max-height: 800px"
+          />
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="text-white">
+            In this project I aimed to achieve the following goals:
+          </p>
+          <ul class="list-group">
+            <li class="list-group-item bg-color-bg text-white">
+              Identify an unresponsive website
+            </li>
+            <li class="list-group-item bg-color-bg text-white">
+              Come up with a new and modern mobile-first design for the website
+            </li>
+            <li class="list-group-item bg-color-bg text-white">
+              Code up my design using HTML and CSS (perhaps using some
+              frameworks)
+            </li>
+            <li class="list-group-item bg-color-bg text-white">
+              Test how this interface holds up
+            </li>
+          </ul>
+          <p class="text-white my-3">
+            I ended up choosing George RR Martin's Blog website which can be
+            found
+            <a
+              href="https://georgerrmartin.com/notablog/"
+              class="fg-color-secondary"
+              >here</a
+            >
+          </p>
+          <p class="text-white">
+            Below you can find the sketches and the mockup that I came up with.
+          </p>
+          <p class="text-white">
+            I ended up using BootStrap as a markup framework to allow for that
+            mobile responsiveness, and in the end I think it all came together
+            well.
+          </p>
+          <br /><br />
+          <p class="text-white">
+            I divided this project into the following parts:
+          </p>
+          <ul class="list-group page-links">
+            <a href="#part1" class="fg-color-secondary">
+              <li class="list-group-item bg-color-bg">
+                Usability and Acessibility Issues
+              </li>
+            </a>
+            <a href="#part2" class="fg-color-secondary">
+              <li class="list-group-item bg-color-bg">Wireframing</li>
+            </a>
+            <a href="#part3" class="fg-color-secondary">
+              <li class="list-group-item bg-color-bg">
+                High-Fidelity Prototype
+              </li>
+            </a>
+            <a href="#part4" class="fg-color-secondary">
+              <li class="list-group-item bg-color-bg">HTML Website</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- <h2 class="text-center text-capitalize p-5" id="part-1">PART 1</h2> -->
+      <div class="usability-issues m-5" id="part1">
+        <h3 class="text-center fg-color-primary">Usability Issues</h3>
+        <p class="text-white">
+          I identified a couple of usability issues with the blog portion which
+          I outline below:
+        </p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-color-bg text-white">
+            The user has to read all the articles in their entirety before going
+            to the next article. There is no way to skim through the headlines
+            of artciles and this proves to be really cumbersome. This occurs in
+            both the mobile and desktop versions.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            The desktop version of the website does not take advantage of the
+            ample amount of space available. The website has a single columned
+            layout showing only one blog post at a time. As a user who uses a
+            monitor, the website really threw me of.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            Some items of the website do not appear on the mobile version of the
+            website (such as the Calendar, tags, and recent posts).
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            While skimming through the website, it is difficult to identify the
+            end of one article and the beginning of the next.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            Social media links are not placed in the usual locations and I had
+            to Cmd+F to find them!
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            The color contrast created with the white text on the grey
+            background is a bit too simplistic and leaves the user wanting more.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            The layout of the elements of the website seems very 90s like.
+          </li>
+        </ul>
+      </div>
+      <div class="accessibility-issues m-5">
+        <h3 class="text-center fg-color-primary">Accessibility Issues</h3>
+        <p class="text-white">
+          While not too many, the website could use some improvements with
+          regards to accessibility. They are as follows:
+        </p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-color-bg text-white">
+            Some of the blog post images do not have alt texts associated with
+            it.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            The checker reported that quite a lot of generic elements lack
+            enough color contrast.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            Some form input labels were missing which caused screen readers to
+            malfunction when arriving at that point in the page.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            The screen reader seems to struggle with the headers of an
+            individual blog post. Adding aria labels to this would solve this.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Part 2 -->
+    <div class="low-fidelity bg-color-bg p-5 my-5">
+      <h3 class="text-center pb-3 fg-color-primary" id="part2">
+        Low-fidelity Wireframing
+      </h3>
+      <p class="px-5 mx-5 text-center text-white">
+        I used Balsamiq to create 3 wireframes, and annotated them. I also
+        address as to how these wireframes may help solve the issues I discussed
+        in Part 1 above!
+      </p>
+      <div class="row d-flex m-4">
+        <!-- desktop -->
+        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+          <img
+            src="img/desktop_wireframe.png"
+            alt="desktop wireframe"
+            class="img-fluid"
+          />
+        </div>
+        <!-- tablet -->
+        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+          <img
+            src="img/tablet_wireframe.png"
+            alt="tablet wireframe"
+            class="img-fluid"
+          />
+        </div>
+        <!-- mobile -->
+        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+          <img
+            src="img/mobile_wireframe.png"
+            alt="mobile wireframe"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="high-fidelity bg-color-bg p-5 my-5">
+      <h3 class="text-center pb-3 fg-color-primary" id="part3">
+        High-Fidelity Prototyping
+      </h3>
+      <p class="px-5 mx-5 text-center text-white">
+        Based on the wireframes created above, I also created 3 prototypes using
+        Figma. Also, I annotated all the prototypes to indicate how elements
+        should respond / be styled.
+      </p>
+      <div class="row d-flex m-4">
+        <!-- desktop -->
+        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+          <img
+            src="img/desktop_figma.png"
+            alt="desktop prototype"
+            class="img-fluid"
+          />
+        </div>
+        <!-- tablet -->
+        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+          <img
+            src="img/tablet_figma.png"
+            alt="tablet prototype"
+            class="img-fluid"
+          />
+        </div>
+        <!-- mobile -->
+        <div class="col-sm-12 col-md-6 col-lg-4 text-center">
+          <img
+            src="img/mobile_figma.png"
+            alt="mobile prototype"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Part 3 -->
+    <div class="container my-5" id="part4">
+      <div class="website">
+        <h3 class="text-center pb-3 fg-color-primary">HTML Website</h3>
+        <p class="px-5 mx-5 text-center text-white">
+          Based on the above wireframes and prototypes, I recreated the new Blog
+          site using HTML and CSS. Here is a link to the website:
+          <br /><br />
+          <a
+            href="https://limitless-brushlands-20562.herokuapp.com/"
+            class="fg-color-secondary"
+            target="_blank"
+          >
+            <u style="font-size: 22px">New Website - Not a Blog</u>
+          </a>
+        </p>
+        <p class="m-2 text-white">
+          Here are some observations I had while checking for responsiveness and
+          so forth:
+        </p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-color-bg text-white">
+            The website properly scaled for mobile, desktop, and tablet screen
+            sizes.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            I also ran the new website through the WAIVE accessibility checker
+            and did not encounter any errors. I only came across a few
+            suggestings but that included things like increasing contrast, which
+            was already enough
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            I also tried to test the responsive behavior of the website in
+            landscape mode for the tablet and mobile. Unsurprisingly, the
+            landscape mode behaves like a narrower iPad version and scales
+            accordingly.
+          </li>
+          <li class="list-group-item bg-color-bg text-white">
+            I also used Google Translate to translate it into my native speaking
+            language and it translated it pretty well other than some links that
+            were embedded in the navigation bar :(
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

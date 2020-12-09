@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  background: 0;
+}
+/* color variables */
+:root {
+  --node6-blacked-bg: rgb(19, 19, 19);
+  --node6-bg: #232931;
+  --node6-secondary: #ff8c20;
+  --node6-primary: #44c59a;
+}
+.fg-color-primary {
+  color: var(--node6-primary);
+}
+.fg-color-secondary {
+  color: var(--node6-secondary);
+}
+.bg-color-primary {
+  background-color: var(--node6-primary);
+}
+.bg-color-secondary {
+  background-color: var(--node6-secondary);
+}
+.bg-color-bg {
+  background-color: var(--node6-bg);
+}
+.bg-color-blacked-bg {
+  background-color: var(--node6-blacked-bg);
+}
+.font-monospace {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Styling starts here */
+body {
+  font: "Roboto", sans-serif;
+  background-color: var(--node6-blacked-bg);
+}
+#nav-btn:hover {
+  color: var(--node6-primary);
+}
+a:hover {
+  color: var(--node6-secondary);
+}

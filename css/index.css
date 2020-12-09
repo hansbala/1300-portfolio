@@ -71,14 +71,15 @@ h2 {
   transform: scale(1.01);
 }
 .btn-node6 {
-  background-color: #232931;
-  color: #ff8c20;
+  background-color: #44c59a;
+  color: #232931;
+  /* background-color: #ff8c20; */
   border-radius: 10px;
 }
 .btn-node6:hover {
   transition: 200ms transform;
   transform: scale(1.1);
-  color: #ff8c20;
+  background-color: #ff8c20;
 }
 
 .contact-wrapper {

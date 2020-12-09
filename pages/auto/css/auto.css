@@ -56,6 +56,13 @@ body {
 #nav-btn {
   display: none;
 }
+#nav-btn:hover {
+  color: var(--node6-primary);
+}
+#navbar-nav-btn:hover {
+  /* color: var(--node6-primary); */
+  color: var(--node6-secondary);
+}
 .nav-link {
   text-decoration: none;
   border: 1px solid #388697;
